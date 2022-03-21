@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka:wght@300;700&display=swap");
+
+body {
+  background: rgb(36, 23, 61);
+  background: linear-gradient(
+    90deg,
+    rgba(36, 23, 61, 1) 13%,
+    rgba(50, 23, 73, 1) 48%,
+    rgba(43, 25, 96, 1) 71%
+  );
+  font-family: "Fredoka", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  margin: 64px;
+  border-radius: 100px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  color: #1c1c1c;
+  padding: 64px;
+}
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-Foto {
+  border-radius: 460px;
+  max-height: 16p0x;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16;
+}
+
+.titulo h1 {
+  font-weight: 700px;
+  font-size: 36px;
+}
+
+.titulo h3 {
+  font-weight: 400px;
+  font-size: 24px;
+}
+
+.tema button {
+  align-self: flex-end;
+  font-size: 16px;
+  padding: 12px 32px;
+  background: #ecf4ff;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-iten {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-iten a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f7f7f7;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+  background: linear-gradient(
+    90deg,
+    rgba(149, 145, 157, 1) 13%,
+    rgba(117, 113, 120, 1) 48%,
+    rgba(132, 129, 143, 1) 71%
+  );
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
